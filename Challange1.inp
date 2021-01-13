@@ -1,0 +1,11 @@
+A=6
+IN B
+C=A + B
+D = B * (A + B) * C
+A1 = 1
+B1 = 2
+A2 = (B*A) + B * C
+A3 = IF A1 >= B1 THEN A1 ELSE B1
+A4 = IF ( A1 + B1 ) <= 3 THEN A1 ELSE B1
+A5 = IF !A THEN A ELSE B
+OUT A2           
